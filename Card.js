@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import style from './Card.module.css';
 import { getColor } from 'color-thief-react';
-import imageUrl from './../../assets/image.jfif';
 
-const Card = () => {
+
+const Card = ({imageUrl}) => {
 
     const [dominantColor, setDominantColor] = useState();
     const [lightenedColor, setLightenedColor] = useState();
