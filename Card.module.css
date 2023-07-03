@@ -1,0 +1,44 @@
+.coverCard {
+    width: 400px;
+}
+.middleSlide img {
+    max-width: 100%;
+}
+.topSlide,
+.topSlide>div,
+.topSlide>div img {
+    border-radius: 50px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    transition: .3s ease-in-out;
+}
+.coverCard:hover .middleSlide {
+    position: relative;
+    top: -10px;
+    right: -10px;
+}
+.coverCard:hover .middleSlide .imageOnly {
+    position: relative;
+    top: -10px;
+    right: -10px;
+}
+.coverCard .forTextCard {
+    transition: .3s ease-in-out;
+    padding: 20px;
+    padding-top: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+}
+.coverCard:hover .forTextCard {
+    background-color: #ffffff1a;
+    color: #fff;
+    padding: 20px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.textStyle {
+    margin-top: 20px;
+    padding-left: 10px;
+    color: #fff;
+}
